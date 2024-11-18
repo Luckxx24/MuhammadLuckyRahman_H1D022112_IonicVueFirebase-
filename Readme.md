@@ -1,9 +1,12 @@
 Alur Kerja Autentikasi Login
+
 1.Konfigurasi Firebase (File src/utils/firebase.ts)
+
 -Anda menginisialisasi Firebase menggunakan konfigurasi yang diberikan (firebaseConfig) dan mendapatkan instance autentikasi (auth) serta penyedia autentikasi Google (googleProvider).
 -Konfigurasi ini diperlukan untuk menghubungkan aplikasi dengan layanan Firebase, termasuk autentikasi.
 
 2.Store Pinia untuk Autentikasi (File src/stores/auth.ts)
+
 -Variabel user: Variabel reaktif untuk menyimpan informasi pengguna saat login.
 -Computed isAuth: Mengecek apakah pengguna sudah login (true) atau belum (false).
 
@@ -20,4 +23,5 @@ Logout dari Firebase dan Google Auth, lalu menghapus data pengguna dari variabel
 onAuthStateChanged: Fungsi bawaan Firebase yang memonitor status login pengguna (logged in/logged out).
 
 3.Komponen UI (File Vue Template)
+
 <ion-button>: Tombol login dengan label "Sign In with Google" yang memanggil fungsi `loginWithGoogle
