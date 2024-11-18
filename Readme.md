@@ -27,3 +27,5 @@ onAuthStateChanged: Fungsi bawaan Firebase yang memonitor status login pengguna 
 3.Komponen UI (File Vue Template)
 
 <ion-button>: Tombol login dengan label "Sign In with Google" yang memanggil fungsi `loginWithGoogle
+
+hasil
