@@ -29,3 +29,12 @@ onAuthStateChanged: Fungsi bawaan Firebase yang memonitor status login pengguna 
 <ion-button>: Tombol login dengan label "Sign In with Google" yang memanggil fungsi `loginWithGoogle
 
 hasil
+
+![Screenshot (511)](https://github.com/user-attachments/assets/f94502af-24bf-420a-a511-9df067992e37)
+
+![Screenshot (512)](https://github.com/user-attachments/assets/46491f34-e260-42ed-8484-6351cc4fe04b)
+
+![Screenshot (513)](https://github.com/user-attachments/assets/f19cee98-d385-4507-aabf-2d85f19db92e)
+
+![Screenshot (514)](https://github.com/user-attachments/assets/9064afa8-c3bf-43cf-b81b-ebbcb6131936)
+
