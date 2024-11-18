@@ -11,6 +11,7 @@ Alur Kerja Autentikasi Login
 -Computed isAuth: Mengecek apakah pengguna sudah login (true) atau belum (false).
 
 -Fungsi loginWithGoogle:
+
 Menginisialisasi Google Auth menggunakan plugin @codetrix-studio/capacitor-google-auth untuk login via Google.
 Mengambil idToken dari akun Google pengguna setelah login berhasil.
 Membuat kredensial Google menggunakan GoogleAuthProvider.credential(idToken).
@@ -19,6 +20,7 @@ Setelah login sukses, data pengguna disimpan dalam variabel user dan diarahkan k
 Jika terjadi error, aplikasi menampilkan pesan kesalahan melalui dialog alertController.
 
 -Fungsi logout:
+
 Logout dari Firebase dan Google Auth, lalu menghapus data pengguna dari variabel user dan diarahkan ke halaman /login.
 onAuthStateChanged: Fungsi bawaan Firebase yang memonitor status login pengguna (logged in/logged out).
 
