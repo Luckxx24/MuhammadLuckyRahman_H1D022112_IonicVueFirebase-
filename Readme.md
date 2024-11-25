@@ -30,11 +30,14 @@ Membuka modal input (InputModal).
 
 hasil
 
-![Screenshot (511)](https://github.com/user-attachments/assets/f94502af-24bf-420a-a511-9df067992e37)
+![Screenshot (537)](https://github.com/user-attachments/assets/9d439cc1-0e88-4104-b25a-36386a4d448b)
 
-![Screenshot (512)](https://github.com/user-attachments/assets/46491f34-e260-42ed-8484-6351cc4fe04b)
+![Screenshot (538)](https://github.com/user-attachments/assets/3243153a-b05e-4cc9-b053-fbeac9b1a0d4)
 
-![Screenshot (513)](https://github.com/user-attachments/assets/f19cee98-d385-4507-aabf-2d85f19db92e)
+![Screenshot (539)](https://github.com/user-attachments/assets/27915eaf-c7d0-4ded-8d09-6843c53308ef)
 
-![Screenshot (514)](https://github.com/user-attachments/assets/9064afa8-c3bf-43cf-b81b-ebbcb6131936)
+![Screenshot (540)](https://github.com/user-attachments/assets/bf3bc312-5636-4a63-9293-8027935f9d8a)
+
+![Screenshot (541)](https://github.com/user-attachments/assets/a773e30b-1eee-40cd-9dab-09939b9c3d55)
+
 
