@@ -28,11 +28,16 @@ Membuka modal input (InputModal).
 
 -Setelah data diperbarui di Firestore, fungsi loadTodos akan memuat ulang daftar tugas untuk memastikan UI sinkron dengan data terbaru.
 
-hasil
+hasil:
+
+tampilan utama
 
 ![Screenshot (537)](https://github.com/user-attachments/assets/9d439cc1-0e88-4104-b25a-36386a4d448b)
 
+menambahkan data
+
 ![Screenshot (538)](https://github.com/user-attachments/assets/3243153a-b05e-4cc9-b053-fbeac9b1a0d4)
+
 
 ![Screenshot (539)](https://github.com/user-attachments/assets/27915eaf-c7d0-4ded-8d09-6843c53308ef)
 
