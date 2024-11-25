@@ -1,10 +1,10 @@
 Cara Kerja Kode
+
 1.Komponen Utama:
 
 -IonItemSliding: Menyediakan mekanisme geser untuk melihat opsi.
 
 -handleEdit(todo):
-
 Menutup item sliding.
 Mengatur editingId sesuai dengan ID item yang diedit.
 Mengatur todo dengan data tugas yang dipilih.
@@ -12,21 +12,21 @@ Membuka modal input (InputModal).
 
 2.Modal Input (InputModal):
 
-Modal ini menerima properti isOpen, editingId, dan todo.
-Ketika pengguna menekan tombol simpan, modal memanggil fungsi handleSubmit(todo).
+-Modal ini menerima properti isOpen, editingId, dan todo.
+-Ketika pengguna menekan tombol simpan, modal memanggil fungsi handleSubmit(todo).
 
 3.handleSubmit:
 
-Jika editingId ada, itu berarti pengguna sedang mengedit data tugas.
-Fungsi ini memperbarui tugas di Firestore menggunakan firestoreService.updateTodo().
+-Jika editingId ada, itu berarti pengguna sedang mengedit data tugas.
+-Fungsi ini memperbarui tugas di Firestore menggunakan firestoreService.updateTodo().
 
 4.Firestore Service:
 
-Komunikasi dengan Firestore dilakukan menggunakan fungsi di dalam firestoreService, seperti addTodo, updateTodo, dan deleteTodo.
+-Komunikasi dengan Firestore dilakukan menggunakan fungsi di dalam firestoreService, seperti addTodo, updateTodo, dan deleteTodo.
 
-UI Pembaruan:
+5.UI Pembaruan:
 
-Setelah data diperbarui di Firestore, fungsi loadTodos akan memuat ulang daftar tugas untuk memastikan UI sinkron dengan data terbaru.
+-Setelah data diperbarui di Firestore, fungsi loadTodos akan memuat ulang daftar tugas untuk memastikan UI sinkron dengan data terbaru.
 
 hasil
 
